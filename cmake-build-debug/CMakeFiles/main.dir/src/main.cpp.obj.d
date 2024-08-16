@@ -1,20 +1,13 @@
 CMakeFiles/main.dir/src/main.cpp.obj: \
  C:\Users\white\CLionProjects\COMP4300\src\main.cpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Clock.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Err.hpp \
- C:/mingw64/include/c++/13.1.0/ostream \
+ C:/mingw64/include/c++/13.1.0/fstream \
  C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
- C:/mingw64/include/c++/13.1.0/ios C:/mingw64/include/c++/13.1.0/iosfwd \
+ C:/mingw64/include/c++/13.1.0/istream C:/mingw64/include/c++/13.1.0/ios \
+ C:/mingw64/include/c++/13.1.0/iosfwd \
  C:/mingw64/include/c++/13.1.0/bits/stringfwd.h \
  C:/mingw64/include/c++/13.1.0/bits/memoryfwd.h \
  C:/mingw64/include/c++/13.1.0/bits/postypes.h \
@@ -153,7 +146,21 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/mingw64/include/c++/13.1.0/bits/locale_facets.tcc \
  C:/mingw64/include/c++/13.1.0/bits/basic_ios.tcc \
+ C:/mingw64/include/c++/13.1.0/ostream \
  C:/mingw64/include/c++/13.1.0/bits/ostream.tcc \
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/bits/codecvt.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Time.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Err.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
@@ -180,7 +187,6 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/ctime \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/time_members.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/mingw64/include/c++/13.1.0/bits/codecvt.h \
  C:/mingw64/include/c++/13.1.0/bits/locale_facets_nonio.tcc \
  C:/mingw64/include/c++/13.1.0/bits/locale_conv.h \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Utf.inl \
@@ -384,5 +390,19 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/amxfp16intrin.h \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/imgui-src/imstb_textedit.h \
  C:/mingw64/include/c++/13.1.0/iostream \
- C:/mingw64/include/c++/13.1.0/istream \
- C:/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/mingw64/include/c++/13.1.0/memory \
+ C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h \
+ C:/mingw64/include/c++/13.1.0/bits/align.h \
+ C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
+ C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h \
+ C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
+ C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h

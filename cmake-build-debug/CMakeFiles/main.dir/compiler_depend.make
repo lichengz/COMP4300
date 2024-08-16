@@ -86,11 +86,17 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/mingw64/include/c++/13.1.0/algorithm \
+  C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h \
   C:/mingw64/include/c++/13.1.0/backward/binders.h \
   C:/mingw64/include/c++/13.1.0/bit \
   C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
+  C:/mingw64/include/c++/13.1.0/bits/align.h \
   C:/mingw64/include/c++/13.1.0/bits/alloc_traits.h \
+  C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/allocator.h \
+  C:/mingw64/include/c++/13.1.0/bits/atomic_base.h \
+  C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h \
+  C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h \
   C:/mingw64/include/c++/13.1.0/bits/basic_ios.h \
   C:/mingw64/include/c++/13.1.0/bits/basic_ios.tcc \
   C:/mingw64/include/c++/13.1.0/bits/basic_string.h \
@@ -107,6 +113,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/bits/exception.h \
   C:/mingw64/include/c++/13.1.0/bits/exception_defines.h \
   C:/mingw64/include/c++/13.1.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
   C:/mingw64/include/c++/13.1.0/bits/functexcept.h \
   C:/mingw64/include/c++/13.1.0/bits/functional_hash.h \
   C:/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
@@ -139,11 +146,16 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h \
   C:/mingw64/include/c++/13.1.0/bits/ranges_base.h \
   C:/mingw64/include/c++/13.1.0/bits/ranges_cmp.h \
+  C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h \
   C:/mingw64/include/c++/13.1.0/bits/ranges_util.h \
   C:/mingw64/include/c++/13.1.0/bits/refwrap.h \
   C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
+  C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
+  C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h \
+  C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
   C:/mingw64/include/c++/13.1.0/bits/specfun.h \
   C:/mingw64/include/c++/13.1.0/bits/std_abs.h \
+  C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
@@ -156,6 +168,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/bits/stl_map.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_multimap.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_pair.h \
+  C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_tree.h \
   C:/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
@@ -166,6 +179,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/bits/string_view.tcc \
   C:/mingw64/include/c++/13.1.0/bits/stringfwd.h \
   C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
+  C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
   C:/mingw64/include/c++/13.1.0/bits/uses_allocator.h \
   C:/mingw64/include/c++/13.1.0/bits/uses_allocator_args.h \
   C:/mingw64/include/c++/13.1.0/bits/utility.h \
@@ -189,9 +203,11 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
   C:/mingw64/include/c++/13.1.0/ext/alloc_traits.h \
   C:/mingw64/include/c++/13.1.0/ext/atomicity.h \
+  C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
   C:/mingw64/include/c++/13.1.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/13.1.0/ext/string_conversions.h \
   C:/mingw64/include/c++/13.1.0/ext/type_traits.h \
+  C:/mingw64/include/c++/13.1.0/fstream \
   C:/mingw64/include/c++/13.1.0/initializer_list \
   C:/mingw64/include/c++/13.1.0/ios \
   C:/mingw64/include/c++/13.1.0/iosfwd \
@@ -202,12 +218,14 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/locale \
   C:/mingw64/include/c++/13.1.0/map \
   C:/mingw64/include/c++/13.1.0/math.h \
+  C:/mingw64/include/c++/13.1.0/memory \
   C:/mingw64/include/c++/13.1.0/new \
   C:/mingw64/include/c++/13.1.0/numbers \
   C:/mingw64/include/c++/13.1.0/optional \
   C:/mingw64/include/c++/13.1.0/ostream \
   C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
   C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
+  C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
   C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
   C:/mingw64/include/c++/13.1.0/stdexcept \
   C:/mingw64/include/c++/13.1.0/stdlib.h \
@@ -232,8 +250,10 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/
   C:/mingw64/include/c++/13.1.0/typeinfo \
   C:/mingw64/include/c++/13.1.0/vector \
   C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -414,6 +434,8 @@ C:/mingw64/include/c++/13.1.0/bits/concept_check.h:
 
 _deps/imgui-sfml-src/imgui-SFML.h:
 
+C:/mingw64/include/c++/13.1.0/memory:
+
 _deps/imgui-src/imconfig.h:
 
 _deps/sfml-src/include/SFML/Graphics/Shader.hpp:
@@ -477,6 +499,8 @@ _deps/sfml-src/include/SFML/Graphics/Glyph.hpp:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h:
 
 C:/mingw64/include/c++/13.1.0/string:
+
+C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h:
 
 _deps/sfml-src/include/SFML/Graphics/Rect.inl:
 
@@ -636,11 +660,17 @@ _deps/sfml-src/include/SFML/Window/WindowStyle.hpp:
 
 C:/mingw64/include/c++/13.1.0/algorithm:
 
+C:/mingw64/include/c++/13.1.0/bits/string_view.tcc:
+
+C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h:
 
 C:/mingw64/include/c++/13.1.0/backward/binders.h:
+
+C:/mingw64/include/c++/13.1.0/bits/fstream.tcc:
 
 C:/mingw64/include/c++/13.1.0/bit:
 
@@ -650,9 +680,27 @@ C:/mingw64/include/c++/13.1.0/bits/charconv.h:
 
 C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h:
 
+C:/mingw64/include/c++/13.1.0/bits/align.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fmaintrin.h:
 
 C:/mingw64/include/c++/13.1.0/bits/alloc_traits.h:
+
+C:/mingw64/include/c++/13.1.0/bits/memoryfwd.h:
+
+C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h:
+
+C:/mingw64/include/c++/13.1.0/bits/atomic_base.h:
+
+C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc:
+
+C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/float.h:
+
+C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
 
@@ -734,8 +782,6 @@ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
 C:/mingw64/include/c++/13.1.0/bits/max_size_type.h:
 
-C:/mingw64/include/c++/13.1.0/bits/memoryfwd.h:
-
 C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h:
 
 C:/mingw64/include/c++/13.1.0/bits/move.h:
@@ -786,6 +832,10 @@ C:/mingw64/include/c++/13.1.0/streambuf:
 
 C:/mingw64/include/c++/13.1.0/bits/ranges_base.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
+
+C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vnniintrin.h:
 
 C:/mingw64/include/c++/13.1.0/bits/ranges_util.h:
@@ -796,11 +846,19 @@ C:/mingw64/include/c++/13.1.0/bits/refwrap.h:
 
 C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h:
 
+C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h:
+
+C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h:
+
 C:/mingw64/include/c++/13.1.0/bits/specfun.h:
 
 C:/mingw64/include/c++/13.1.0/bits/stl_function.h:
 
 C:/mingw64/include/c++/13.1.0/bits/std_abs.h:
+
+C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++locale.h:
+
+C:/mingw64/include/c++/13.1.0/bits/std_mutex.h:
 
 C:/mingw64/include/c++/13.1.0/bits/stl_algo.h:
 
@@ -842,6 +900,10 @@ C:/mingw64/include/c++/13.1.0/bits/stl_multimap.h:
 
 C:/mingw64/include/c++/13.1.0/bits/stl_pair.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/locale.h:
+
+C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h:
+
 C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h:
 
 C:/mingw64/include/c++/13.1.0/bits/stl_tree.h:
@@ -858,13 +920,13 @@ C:/mingw64/include/c++/13.1.0/bits/streambuf.tcc:
 
 C:/mingw64/include/c++/13.1.0/bits/streambuf_iterator.h:
 
-C:/mingw64/include/c++/13.1.0/bits/string_view.tcc:
-
 C:/mingw64/include/c++/13.1.0/bits/stringfwd.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mmintrin.h:
 
 C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h:
+
+C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h:
 
 C:/mingw64/include/c++/13.1.0/bits/uses_allocator.h:
 
@@ -900,6 +962,8 @@ C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h:
 
 C:/mingw64/include/c++/13.1.0/ext/alloc_traits.h:
 
+C:/mingw64/include/c++/13.1.0/ext/concurrence.h:
+
 C:/mingw64/include/c++/13.1.0/ext/numeric_traits.h:
 
 C:/mingw64/include/c++/13.1.0/istream:
@@ -907,6 +971,8 @@ C:/mingw64/include/c++/13.1.0/istream:
 C:/mingw64/include/c++/13.1.0/ext/string_conversions.h:
 
 C:/mingw64/include/c++/13.1.0/ext/type_traits.h:
+
+C:/mingw64/include/c++/13.1.0/fstream:
 
 C:/mingw64/include/c++/13.1.0/initializer_list:
 
@@ -930,6 +996,8 @@ C:/mingw64/x86_64-w64-mingw32/include/math.h:
 
 C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h:
 
+C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h:
+
 C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h:
 
 C:/mingw64/include/c++/13.1.0/stdlib.h:
@@ -947,10 +1015,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h:
 C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc:
 
 C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc:
-
-C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_constants.h:
-
-C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc:
 
 C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc:
 
@@ -970,7 +1034,9 @@ C:/mingw64/include/c++/13.1.0/vector:
 
 C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
-C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++locale.h:
+C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h:
+
+C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h:
 
 C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h:
 
@@ -1146,13 +1212,7 @@ C:/mingw64/x86_64-w64-mingw32/include/corecrt.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/float.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/locale.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/pthread.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
