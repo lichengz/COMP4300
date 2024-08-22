@@ -67,7 +67,7 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/white/CLionProjects/COMP4300/cmake-build-d
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=28
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=29
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=6
 //Path to CMake executable.
@@ -94,7 +94,7 @@ CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2024.1.5/bin/cmake/win/x64/share/cmake-3.28
+CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2024.1.5/bin/cmake/win/x64/share/cmake-3.29
 //ADVANCED property for variable: CMAKE_SKIP_INSTALL_RPATH
 CMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SKIP_RPATH

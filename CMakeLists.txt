@@ -23,7 +23,25 @@ FetchContent_Declare(ImGui-SFML
     GIT_TAG 2.6.x)
 FetchContent_MakeAvailable(ImGui-SFML)
 
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp
+        src/Entity.h
+        src/Entity.cpp
+        src/Components.h
+        src/EntityManager.cpp
+        src/EntityManager.h
+        src/Vec2.cpp
+        src/Vec2.h
+        src/GameEngine.cpp
+        src/GameEngine.h
+        src/GameSettings.h
+        src/GameSettings.cpp
+        src/GuiManager.cpp
+        src/GuiManager.h
+        src/ShapeProperties.h
+        src/GameSettings.cpp
+        src/Utilities.cpp
+        src/Utilities.h
+)
 target_link_libraries(main PRIVATE sfml-graphics ImGui-SFML::ImGui-SFML)
 target_compile_features(main PRIVATE cxx_std_23)
 

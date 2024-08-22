@@ -31,7 +31,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.sfml-build-Debug-2bd07a56a7867599538c.json",
+					"jsonFile" : "directory-_deps.sfml-build-Debug-0007ee98c4f6115b9737.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.7.2"
@@ -242,7 +242,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-72f8490b7c8ee69b98ce.json",
+					"jsonFile" : "target-main-Debug-e137f93fa7fbc8edab3d.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
@@ -300,6 +300,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }

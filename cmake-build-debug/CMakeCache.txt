@@ -42,7 +42,7 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=C:/mingw64/bin/c++.exe
+CMAKE_CXX_COMPILER:STRING=C:/mingw64/bin/c++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -71,7 +71,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=C:/mingw64/bin/gcc.exe
+CMAKE_C_COMPILER:STRING=C:/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -518,7 +518,7 @@ imgui_sfml_IS_TOP_LEVEL:STATIC=OFF
 imgui_sfml_SOURCE_DIR:STATIC=C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/imgui-sfml-src
 
 //Dependencies for the target
-sfml-audio_LIB_DEPENDS:STATIC=general;sfml-system;
+sfml-audio_LIB_DEPENDS:STATIC=general;OpenAL::OpenAL;general;sfml-system;
 
 //Dependencies for the target
 sfml-graphics_LIB_DEPENDS:STATIC=general;sfml-window;
@@ -546,7 +546,7 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/white/CLionProjects/COMP4300/cmake-build-d
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=28
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=29
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=6
 //Path to CMake executable.
@@ -696,7 +696,7 @@ CMAKE_RC_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2024.1.5/bin/cmake/win/x64/share/cmake-3.28
+CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2024.1.5/bin/cmake/win/x64/share/cmake-3.29
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

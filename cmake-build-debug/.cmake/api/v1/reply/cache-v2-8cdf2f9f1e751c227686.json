@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "28"
+			"value" : "29"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -218,7 +218,7 @@
 					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/mingw64/bin/c++.exe"
 		},
 		{
@@ -362,7 +362,7 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/mingw64/bin/gcc.exe"
 		},
 		{
@@ -1431,7 +1431,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/JetBrains/CLion 2024.1.5/bin/cmake/win/x64/share/cmake-3.28"
+			"value" : "C:/Program Files/JetBrains/CLion 2024.1.5/bin/cmake/win/x64/share/cmake-3.29"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -2683,7 +2683,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;sfml-system;"
+			"value" : "general;OpenAL::OpenAL;general;sfml-system;"
 		},
 		{
 			"name" : "sfml-graphics_LIB_DEPENDS",

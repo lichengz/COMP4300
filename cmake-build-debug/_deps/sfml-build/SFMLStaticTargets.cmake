@@ -3,11 +3,11 @@
 if("${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}" LESS 2.8)
    message(FATAL_ERROR "CMake >= 2.8.0 required")
 endif()
-if(CMAKE_VERSION VERSION_LESS "2.8.3")
-   message(FATAL_ERROR "CMake >= 2.8.3 required")
+if(CMAKE_VERSION VERSION_LESS "3.0.0")
+   message(FATAL_ERROR "CMake >= 3.0.0 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...3.26)
+cmake_policy(VERSION 3.0.0...3.27)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -15,15 +15,11 @@ cmake_policy(VERSION 2.8.3...3.26)
 # Commands may need to know the format version.
 set(CMAKE_IMPORT_FILE_VERSION 1)
 
-if(CMAKE_VERSION VERSION_LESS 3.0.0)
-  message(FATAL_ERROR "This file relies on consumers using CMake 3.0.0 or greater.")
-endif()
-
 # Protect against multiple inclusion, which would fail when already imported targets are added once more.
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS sfml-system sfml-main sfml-window OpenGL sfml-network sfml-graphics Freetype OpenAL VORBIS FLAC sfml-audio)
+foreach(_cmake_expected_target IN ITEMS sfml-system sfml-main sfml-window OpenGL sfml-network sfml-graphics Freetype VORBIS FLAC sfml-audio)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -109,14 +105,6 @@ set_target_properties(Freetype PROPERTIES
   INTERFACE_LINK_LIBRARIES "C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a"
 )
 
-# Create imported target OpenAL
-add_library(OpenAL INTERFACE IMPORTED)
-
-set_target_properties(OpenAL PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/extlibs/headers/AL"
-  INTERFACE_LINK_LIBRARIES "C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/extlibs/libs-mingw/x64/libopenal32.a"
-)
-
 # Create imported target VORBIS
 add_library(VORBIS INTERFACE IMPORTED)
 
@@ -141,7 +129,7 @@ add_library(sfml-audio STATIC IMPORTED)
 set_target_properties(sfml-audio PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
   INTERFACE_INCLUDE_DIRECTORIES "C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:OpenAL>;sfml-system;\$<LINK_ONLY:VORBIS>;\$<LINK_ONLY:FLAC>"
+  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:OpenAL::OpenAL>;sfml-system;\$<LINK_ONLY:VORBIS>;\$<LINK_ONLY:FLAC>"
 )
 
 # Import target "sfml-system" for configuration "Debug"
