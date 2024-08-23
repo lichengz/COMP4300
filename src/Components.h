@@ -7,23 +7,27 @@
 #include "Vec2.h"
 #include "SFML/Graphics/Shape.hpp"
 
-class CTransform {
+class Transform{};
+
+class CTransform : public Transform {
 public:
-    Vec2 position;
-    Vec2 velocity;
+    Vec2 position = {0, 0};
+    Vec2 velocity = {0, 0};
+    Vec2 size = {0, 0};
+    float angle = 0;
 };
 
-class CName {
+class CName : public Transform {
 public:
     std::string name;
 };
 
-class CShape {
+class CShape : public Transform {
 public:
     std::shared_ptr<sf::Shape> shape;
 };
 
-class CBBox {
+class CBBox : public Transform {
 public:
     CTransform& cTransform;
     float boundingRadius;
