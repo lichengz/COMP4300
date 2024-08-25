@@ -284,6 +284,102 @@ ImGui-SFML/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\imgui-sfml-build\CMakeFiles\ImGui-SFML.dir\build.make _deps/imgui-sfml-build/CMakeFiles/ImGui-SFML.dir/build
 .PHONY : ImGui-SFML/fast
 
+src/Action.obj: src/Action.cpp.obj
+.PHONY : src/Action.obj
+
+# target to build an object file
+src/Action.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Action.cpp.obj
+.PHONY : src/Action.cpp.obj
+
+src/Action.i: src/Action.cpp.i
+.PHONY : src/Action.i
+
+# target to preprocess a source file
+src/Action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Action.cpp.i
+.PHONY : src/Action.cpp.i
+
+src/Action.s: src/Action.cpp.s
+.PHONY : src/Action.s
+
+# target to generate assembly for a file
+src/Action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Action.cpp.s
+.PHONY : src/Action.cpp.s
+
+src/Animation.obj: src/Animation.cpp.obj
+.PHONY : src/Animation.obj
+
+# target to build an object file
+src/Animation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Animation.cpp.obj
+.PHONY : src/Animation.cpp.obj
+
+src/Animation.i: src/Animation.cpp.i
+.PHONY : src/Animation.i
+
+# target to preprocess a source file
+src/Animation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Animation.cpp.i
+.PHONY : src/Animation.cpp.i
+
+src/Animation.s: src/Animation.cpp.s
+.PHONY : src/Animation.s
+
+# target to generate assembly for a file
+src/Animation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Animation.cpp.s
+.PHONY : src/Animation.cpp.s
+
+src/Assets.obj: src/Assets.cpp.obj
+.PHONY : src/Assets.obj
+
+# target to build an object file
+src/Assets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Assets.cpp.obj
+.PHONY : src/Assets.cpp.obj
+
+src/Assets.i: src/Assets.cpp.i
+.PHONY : src/Assets.i
+
+# target to preprocess a source file
+src/Assets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Assets.cpp.i
+.PHONY : src/Assets.cpp.i
+
+src/Assets.s: src/Assets.cpp.s
+.PHONY : src/Assets.s
+
+# target to generate assembly for a file
+src/Assets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Assets.cpp.s
+.PHONY : src/Assets.cpp.s
+
+src/Components.obj: src/Components.cpp.obj
+.PHONY : src/Components.obj
+
+# target to build an object file
+src/Components.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Components.cpp.obj
+.PHONY : src/Components.cpp.obj
+
+src/Components.i: src/Components.cpp.i
+.PHONY : src/Components.i
+
+# target to preprocess a source file
+src/Components.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Components.cpp.i
+.PHONY : src/Components.cpp.i
+
+src/Components.s: src/Components.cpp.s
+.PHONY : src/Components.s
+
+# target to generate assembly for a file
+src/Components.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Components.cpp.s
+.PHONY : src/Components.cpp.s
+
 src/Entity.obj: src/Entity.cpp.obj
 .PHONY : src/Entity.obj
 
@@ -356,6 +452,30 @@ src/GameEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GameEngine.cpp.s
 .PHONY : src/GameEngine.cpp.s
 
+src/GameScene.obj: src/GameScene.cpp.obj
+.PHONY : src/GameScene.obj
+
+# target to build an object file
+src/GameScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GameScene.cpp.obj
+.PHONY : src/GameScene.cpp.obj
+
+src/GameScene.i: src/GameScene.cpp.i
+.PHONY : src/GameScene.i
+
+# target to preprocess a source file
+src/GameScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GameScene.cpp.i
+.PHONY : src/GameScene.cpp.i
+
+src/GameScene.s: src/GameScene.cpp.s
+.PHONY : src/GameScene.s
+
+# target to generate assembly for a file
+src/GameScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GameScene.cpp.s
+.PHONY : src/GameScene.cpp.s
+
 src/GameSettings.obj: src/GameSettings.cpp.obj
 .PHONY : src/GameSettings.obj
 
@@ -403,6 +523,78 @@ src/GuiManager.s: src/GuiManager.cpp.s
 src/GuiManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/GuiManager.cpp.s
 .PHONY : src/GuiManager.cpp.s
+
+src/MenuScene.obj: src/MenuScene.cpp.obj
+.PHONY : src/MenuScene.obj
+
+# target to build an object file
+src/MenuScene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/MenuScene.cpp.obj
+.PHONY : src/MenuScene.cpp.obj
+
+src/MenuScene.i: src/MenuScene.cpp.i
+.PHONY : src/MenuScene.i
+
+# target to preprocess a source file
+src/MenuScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/MenuScene.cpp.i
+.PHONY : src/MenuScene.cpp.i
+
+src/MenuScene.s: src/MenuScene.cpp.s
+.PHONY : src/MenuScene.s
+
+# target to generate assembly for a file
+src/MenuScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/MenuScene.cpp.s
+.PHONY : src/MenuScene.cpp.s
+
+src/Player.obj: src/Player.cpp.obj
+.PHONY : src/Player.obj
+
+# target to build an object file
+src/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Player.cpp.obj
+.PHONY : src/Player.cpp.obj
+
+src/Player.i: src/Player.cpp.i
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
+src/Scene.obj: src/Scene.cpp.obj
+.PHONY : src/Scene.obj
+
+# target to build an object file
+src/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Scene.cpp.obj
+.PHONY : src/Scene.cpp.obj
+
+src/Scene.i: src/Scene.cpp.i
+.PHONY : src/Scene.i
+
+# target to preprocess a source file
+src/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Scene.cpp.i
+.PHONY : src/Scene.cpp.i
+
+src/Scene.s: src/Scene.cpp.s
+.PHONY : src/Scene.s
+
+# target to generate assembly for a file
+src/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Scene.cpp.s
+.PHONY : src/Scene.cpp.s
 
 src/Utilities.obj: src/Utilities.cpp.obj
 .PHONY : src/Utilities.obj
@@ -498,6 +690,18 @@ help:
 	@echo ... sfml-network
 	@echo ... sfml-system
 	@echo ... sfml-window
+	@echo ... src/Action.obj
+	@echo ... src/Action.i
+	@echo ... src/Action.s
+	@echo ... src/Animation.obj
+	@echo ... src/Animation.i
+	@echo ... src/Animation.s
+	@echo ... src/Assets.obj
+	@echo ... src/Assets.i
+	@echo ... src/Assets.s
+	@echo ... src/Components.obj
+	@echo ... src/Components.i
+	@echo ... src/Components.s
 	@echo ... src/Entity.obj
 	@echo ... src/Entity.i
 	@echo ... src/Entity.s
@@ -507,12 +711,24 @@ help:
 	@echo ... src/GameEngine.obj
 	@echo ... src/GameEngine.i
 	@echo ... src/GameEngine.s
+	@echo ... src/GameScene.obj
+	@echo ... src/GameScene.i
+	@echo ... src/GameScene.s
 	@echo ... src/GameSettings.obj
 	@echo ... src/GameSettings.i
 	@echo ... src/GameSettings.s
 	@echo ... src/GuiManager.obj
 	@echo ... src/GuiManager.i
 	@echo ... src/GuiManager.s
+	@echo ... src/MenuScene.obj
+	@echo ... src/MenuScene.i
+	@echo ... src/MenuScene.s
+	@echo ... src/Player.obj
+	@echo ... src/Player.i
+	@echo ... src/Player.s
+	@echo ... src/Scene.obj
+	@echo ... src/Scene.i
+	@echo ... src/Scene.s
 	@echo ... src/Utilities.obj
 	@echo ... src/Utilities.i
 	@echo ... src/Utilities.s

@@ -188,6 +188,126 @@ CMakeFiles/main.dir/src/Utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Utilities.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Utilities.cpp -o CMakeFiles\main.dir\src\Utilities.cpp.s
 
+CMakeFiles/main.dir/src/Action.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Action.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Action.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/Action.cpp
+CMakeFiles/main.dir/src/Action.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/Action.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Action.cpp.obj -MF CMakeFiles\main.dir\src\Action.cpp.obj.d -o CMakeFiles\main.dir\src\Action.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\Action.cpp
+
+CMakeFiles/main.dir/src/Action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Action.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\Action.cpp > CMakeFiles\main.dir\src\Action.cpp.i
+
+CMakeFiles/main.dir/src/Action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Action.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Action.cpp -o CMakeFiles\main.dir\src\Action.cpp.s
+
+CMakeFiles/main.dir/src/Animation.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Animation.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Animation.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/Animation.cpp
+CMakeFiles/main.dir/src/Animation.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/Animation.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Animation.cpp.obj -MF CMakeFiles\main.dir\src\Animation.cpp.obj.d -o CMakeFiles\main.dir\src\Animation.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\Animation.cpp
+
+CMakeFiles/main.dir/src/Animation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Animation.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\Animation.cpp > CMakeFiles\main.dir\src\Animation.cpp.i
+
+CMakeFiles/main.dir/src/Animation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Animation.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Animation.cpp -o CMakeFiles\main.dir\src\Animation.cpp.s
+
+CMakeFiles/main.dir/src/Scene.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Scene.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Scene.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/Scene.cpp
+CMakeFiles/main.dir/src/Scene.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/Scene.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Scene.cpp.obj -MF CMakeFiles\main.dir\src\Scene.cpp.obj.d -o CMakeFiles\main.dir\src\Scene.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\Scene.cpp
+
+CMakeFiles/main.dir/src/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Scene.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\Scene.cpp > CMakeFiles\main.dir\src\Scene.cpp.i
+
+CMakeFiles/main.dir/src/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Scene.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Scene.cpp -o CMakeFiles\main.dir\src\Scene.cpp.s
+
+CMakeFiles/main.dir/src/Assets.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Assets.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Assets.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/Assets.cpp
+CMakeFiles/main.dir/src/Assets.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/Assets.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Assets.cpp.obj -MF CMakeFiles\main.dir\src\Assets.cpp.obj.d -o CMakeFiles\main.dir\src\Assets.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\Assets.cpp
+
+CMakeFiles/main.dir/src/Assets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Assets.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\Assets.cpp > CMakeFiles\main.dir\src\Assets.cpp.i
+
+CMakeFiles/main.dir/src/Assets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Assets.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Assets.cpp -o CMakeFiles\main.dir\src\Assets.cpp.s
+
+CMakeFiles/main.dir/src/MenuScene.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/MenuScene.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/MenuScene.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/MenuScene.cpp
+CMakeFiles/main.dir/src/MenuScene.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/MenuScene.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/MenuScene.cpp.obj -MF CMakeFiles\main.dir\src\MenuScene.cpp.obj.d -o CMakeFiles\main.dir\src\MenuScene.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\MenuScene.cpp
+
+CMakeFiles/main.dir/src/MenuScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/MenuScene.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\MenuScene.cpp > CMakeFiles\main.dir\src\MenuScene.cpp.i
+
+CMakeFiles/main.dir/src/MenuScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/MenuScene.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\MenuScene.cpp -o CMakeFiles\main.dir\src\MenuScene.cpp.s
+
+CMakeFiles/main.dir/src/GameScene.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/GameScene.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/GameScene.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/GameScene.cpp
+CMakeFiles/main.dir/src/GameScene.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/GameScene.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/GameScene.cpp.obj -MF CMakeFiles\main.dir\src\GameScene.cpp.obj.d -o CMakeFiles\main.dir\src\GameScene.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\GameScene.cpp
+
+CMakeFiles/main.dir/src/GameScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/GameScene.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\GameScene.cpp > CMakeFiles\main.dir\src\GameScene.cpp.i
+
+CMakeFiles/main.dir/src/GameScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/GameScene.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\GameScene.cpp -o CMakeFiles\main.dir\src\GameScene.cpp.s
+
+CMakeFiles/main.dir/src/Player.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Player.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Player.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/Player.cpp
+CMakeFiles/main.dir/src/Player.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/Player.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Player.cpp.obj -MF CMakeFiles\main.dir\src\Player.cpp.obj.d -o CMakeFiles\main.dir\src\Player.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\Player.cpp
+
+CMakeFiles/main.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Player.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\Player.cpp > CMakeFiles\main.dir\src\Player.cpp.i
+
+CMakeFiles/main.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Player.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Player.cpp -o CMakeFiles\main.dir\src\Player.cpp.s
+
+CMakeFiles/main.dir/src/Components.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Components.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Components.cpp.obj: C:/Users/white/CLionProjects/COMP4300/src/Components.cpp
+CMakeFiles/main.dir/src/Components.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/Components.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Components.cpp.obj -MF CMakeFiles\main.dir\src\Components.cpp.obj.d -o CMakeFiles\main.dir\src\Components.cpp.obj -c C:\Users\white\CLionProjects\COMP4300\src\Components.cpp
+
+CMakeFiles/main.dir/src/Components.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Components.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\white\CLionProjects\COMP4300\src\Components.cpp > CMakeFiles\main.dir\src\Components.cpp.i
+
+CMakeFiles/main.dir/src/Components.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Components.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\white\CLionProjects\COMP4300\src\Components.cpp -o CMakeFiles\main.dir\src\Components.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
@@ -197,7 +317,15 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/GameEngine.cpp.obj" \
 "CMakeFiles/main.dir/src/GameSettings.cpp.obj" \
 "CMakeFiles/main.dir/src/GuiManager.cpp.obj" \
-"CMakeFiles/main.dir/src/Utilities.cpp.obj"
+"CMakeFiles/main.dir/src/Utilities.cpp.obj" \
+"CMakeFiles/main.dir/src/Action.cpp.obj" \
+"CMakeFiles/main.dir/src/Animation.cpp.obj" \
+"CMakeFiles/main.dir/src/Scene.cpp.obj" \
+"CMakeFiles/main.dir/src/Assets.cpp.obj" \
+"CMakeFiles/main.dir/src/MenuScene.cpp.obj" \
+"CMakeFiles/main.dir/src/GameScene.cpp.obj" \
+"CMakeFiles/main.dir/src/Player.cpp.obj" \
+"CMakeFiles/main.dir/src/Components.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -210,6 +338,14 @@ bin/main.exe: CMakeFiles/main.dir/src/GameEngine.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/src/GameSettings.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/src/GuiManager.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/src/Utilities.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Action.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Animation.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Scene.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Assets.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/MenuScene.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/GameScene.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Player.cpp.obj
+bin/main.exe: CMakeFiles/main.dir/src/Components.cpp.obj
 bin/main.exe: CMakeFiles/main.dir/build.make
 bin/main.exe: _deps/sfml-build/lib/libsfml-graphics-s-d.a
 bin/main.exe: _deps/imgui-sfml-build/libImGui-SFML.a
@@ -220,7 +356,7 @@ bin/main.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a
 bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
 bin/main.exe: CMakeFiles/main.dir/objects1.rsp
 bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin\main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\white\CLionProjects\COMP4300\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable bin\main.exe"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copy OpenAL DLL"
 	"C:\Program Files\JetBrains\CLion 2024.1.5\bin\cmake\win\x64\bin\cmake.exe" -E copy C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/extlibs/bin/x64/openal32.dll C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/bin
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)

@@ -193,6 +193,7 @@ CMakeFiles/main.dir/src/Entity.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h \
  C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
  C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
+ C:\Users\white\CLionProjects\COMP4300\src\Animation.h \
  C:\Users\white\CLionProjects\COMP4300\src\Components.h \
  C:\Users\white\CLionProjects\COMP4300\src\Vec2.h \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
@@ -214,4 +215,11 @@ CMakeFiles/main.dir/src/Entity.cpp.obj: \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp

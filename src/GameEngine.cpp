@@ -12,6 +12,8 @@
 #include "SFML/Window/Event.hpp"
 #include <SFML/Window/Keyboard.hpp>
 
+#include "GameScene.h"
+#include "MenuScene.h"
 #include "Utilities.h"
 
 void GameEngine::sUserInput() {
@@ -25,69 +27,76 @@ void GameEngine::sUserInput() {
 
         if(event.type == sf::Event::KeyPressed) {
             std::cout << "Key Pressed: " << event.key.code << std::endl;
-            if(event.key.code == sf::Keyboard::Escape) {
-                m_window.close();
+            if(m_sceneMap[m_currentSceneType]->getActionMap().contains(event.key.code)) {
+                m_sceneMap[m_currentSceneType]->doAction(Action{m_sceneMap[m_currentSceneType]->getActionMap().at(event.key.code), ActionState::START});
             }
 
-            if(event.key.code == sf::Keyboard::W) {
-                auto player = m_entityManager->getPlayer();
-                if(player) {
-                    player->cTransform->velocity = Vec2{0.0f, -1.0f} * settings.playerSpeed;
-                }
-            }
-            if (event.key.code == sf::Keyboard::S) {
-                auto player = m_entityManager->getPlayer();
-                if(player) {
-                    player->cTransform->velocity = Vec2{0.0f, 1.0f} * settings.playerSpeed;
-                }
-            }
-            if (event.key.code == sf::Keyboard::A) {
-                auto player = m_entityManager->getPlayer();
-                if(player) {
-                    player->cTransform->velocity = Vec2{-1.0f, 0.0f} * settings.playerSpeed;
-                }
-            }
-            if (event.key.code == sf::Keyboard::D) {
-                auto player = m_entityManager->getPlayer();
-                if(player) {
-                    player->cTransform->velocity = Vec2{1.0f, 0.0f} * settings.playerSpeed;
-                }
-            }
+            // if(event.key.code == sf::Keyboard::Escape) {
+            //     m_window.close();
+            // }
+
+            // if(event.key.code == sf::Keyboard::W) {
+            //     auto player = m_entityManager->getPlayer();
+            //     if(player) {
+            //         player->cTransform->velocity = Vec2{0.0f, -1.0f} * settings.playerSpeed;
+            //     }
+            // }
+            // if (event.key.code == sf::Keyboard::S) {
+            //     auto player = m_entityManager->getPlayer();
+            //     if(player) {
+            //         player->cTransform->velocity = Vec2{0.0f, 1.0f} * settings.playerSpeed;
+            //     }
+            // }
+            // if (event.key.code == sf::Keyboard::A) {
+            //     auto player = m_entityManager->getPlayer();
+            //     if(player) {
+            //         player->cTransform->velocity = Vec2{-1.0f, 0.0f} * settings.playerSpeed;
+            //     }
+            // }
+            // if (event.key.code == sf::Keyboard::D) {
+            //     auto player = m_entityManager->getPlayer();
+            //     if(player) {
+            //         player->cTransform->velocity = Vec2{1.0f, 0.0f} * settings.playerSpeed;
+            //     }
+            // }
         }
         else if(event.type == sf::Event::KeyReleased) {
-            if(event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::D) {
-                if(sf::Keyboard::isKeyPressed(sf::Keyboard::W) || sf::Keyboard::isKeyPressed(sf::Keyboard::S) || sf::Keyboard::isKeyPressed(sf::Keyboard::A) || sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-                    if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
-                        auto player = m_entityManager->getPlayer();
-                        if(player) {
-                            player->cTransform->velocity = Vec2{0.0f, -1.0f} * settings.playerSpeed;
-                        }
-                    }
-                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
-                        auto player = m_entityManager->getPlayer();
-                        if(player) {
-                            player->cTransform->velocity = Vec2{0.0f, 1.0f} * settings.playerSpeed;
-                        }
-                    }
-                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
-                        auto player = m_entityManager->getPlayer();
-                        if(player) {
-                            player->cTransform->velocity = Vec2{-1.0f, 0.0f} * settings.playerSpeed;
-                        }
-                    }
-                    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-                        auto player = m_entityManager->getPlayer();
-                        if(player) {
-                            player->cTransform->velocity = Vec2{1.0f, 0.0f} * settings.playerSpeed;
-                        }
-                    }
-                    continue;
-                }
-                auto player = m_entityManager->getPlayer();
-                if(player) {
-                    player->cTransform->velocity = Vec2{0.0f, 0.0f};
-                }
+            if(m_sceneMap[m_currentSceneType]->getActionMap().contains(event.key.code)) {
+                m_sceneMap[m_currentSceneType]->doAction(Action{m_sceneMap[m_currentSceneType]->getActionMap().at(event.key.code), ActionState::END});
             }
+            // if(event.key.code == sf::Keyboard::W || event.key.code == sf::Keyboard::S || event.key.code == sf::Keyboard::A || event.key.code == sf::Keyboard::D) {
+            //     if(sf::Keyboard::isKeyPressed(sf::Keyboard::W) || sf::Keyboard::isKeyPressed(sf::Keyboard::S) || sf::Keyboard::isKeyPressed(sf::Keyboard::A) || sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
+            //         if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
+            //             auto player = m_entityManager->getPlayer();
+            //             if(player) {
+            //                 player->cTransform->velocity = Vec2{0.0f, -1.0f} * settings.playerSpeed;
+            //             }
+            //         }
+            //         if (sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
+            //             auto player = m_entityManager->getPlayer();
+            //             if(player) {
+            //                 player->cTransform->velocity = Vec2{0.0f, 1.0f} * settings.playerSpeed;
+            //             }
+            //         }
+            //         if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+            //             auto player = m_entityManager->getPlayer();
+            //             if(player) {
+            //                 player->cTransform->velocity = Vec2{-1.0f, 0.0f} * settings.playerSpeed;
+            //             }
+            //         }
+            //         if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
+            //             auto player = m_entityManager->getPlayer();
+            //             if(player) {
+            //                 player->cTransform->velocity = Vec2{1.0f, 0.0f} * settings.playerSpeed;
+            //             }
+            //         }
+            //         continue;
+            //     }
+            //     auto player = m_entityManager->getPlayer();
+            //     if(player) {
+            //         player->cTransform->velocity = Vec2{0.0f, 0.0f};
+            //     }
+            // }
         }
 
         if(event.type == sf::Event::MouseButtonPressed) {
@@ -117,10 +126,10 @@ void GameEngine::sMovement() {
     for(const auto& entity : m_entityManager->getEntities()) {
         if(entity->cTransform && entity->cBBox) {
             if(entity->getTag() != "bullet") {
-                if(entity->cTransform->position.x + entity->cTransform->velocity.x + entity->cBBox->boundingRadius > settings.windowWidth || entity->cTransform->position.x + entity->cTransform->velocity.x - entity->cBBox->boundingRadius < 0) {
+                if(entity->cTransform->position.x + entity->cTransform->velocity.x + entity->cBBox->boundingRadius() > settings.windowWidth || entity->cTransform->position.x + entity->cTransform->velocity.x - entity->cBBox->boundingRadius() < 0) {
                     entity->cTransform->velocity.x *= -1.0f;
                 }
-                if(entity->cTransform->position.y + entity->cTransform->velocity.y + entity->cBBox->boundingRadius > settings.windowHeight || entity->cTransform->position.y + entity->cTransform->velocity.y - entity->cBBox->boundingRadius < 0) {
+                if(entity->cTransform->position.y + entity->cTransform->velocity.y + entity->cBBox->boundingRadius() > settings.windowHeight || entity->cTransform->position.y + entity->cTransform->velocity.y - entity->cBBox->boundingRadius() < 0) {
                     entity->cTransform->velocity.y *= -1.0f;
                 }
             }
@@ -157,31 +166,41 @@ GameEngine::GameEngine(GameSettings settings): settings(std::move(settings)) {
     initWindow();
     m_entityManager = std::make_shared<EntityManager>();
     m_guiManager = std::make_shared<GuiManager>(m_window, m_entityManager);
+    m_sceneMap[SceneType::GAME] = std::make_shared<GameScene>(this);
+    m_sceneMap[SceneType::MENU] = std::make_shared<MenuScene>(this);
 }
 
 void GameEngine::start() {
-    initPlayer();
+    // initPlayer();
     if(!myFont.loadFromFile(settings.fontPath)) {
         std::cerr << "Error loading font" << std::endl;
         exit(-1);
     }
+    m_currentSceneType = SceneType::GAME;
+    m_sceneMap[m_currentSceneType]->start();
 }
 
 void GameEngine::update() {
      while(m_window.isOpen()) {
-         if(frameCounter == settings.enemySpawnInterval) {
-             spawnEnemy();
-             frameCounter = 0;
-         }
-         m_guiManager->update(settings, m_window, deltaClock.restart());
-         m_entityManager->update();
-         for(const auto& entity : m_entityManager->getEntities()) {
-             entity->update();
-         }
+         // if(frameCounter == settings.enemySpawnInterval) {
+         //     spawnEnemy();
+         //     frameCounter = 0;
+         // }
+         // m_guiManager->update(settings, m_window, deltaClock.restart());
+         // m_entityManager->update();
+         // for(const auto& entity : m_entityManager->getEntities()) {
+         //     entity->update();
+         // }
+         // sUserInput();
+         // sMovement();
+         // sRender();
+         // frameCounter++;
+
          sUserInput();
-         sMovement();
-         sRender();
-         frameCounter++;
+         m_window.clear();
+         m_sceneMap[m_currentSceneType]->update();
+         m_sceneMap[m_currentSceneType]->render();
+         m_window.display();
     }
 }
 
@@ -197,7 +216,7 @@ void GameEngine::initPlayer() {
     player-> cShape->shape->setFillColor(sf::Color::Transparent);
     player-> cShape->shape->setOutlineColor(sf::Color::White);
     player-> cShape->shape->setOutlineThickness(thickness); // Outline thickness of 5 units
-    player-> cBBox = std::make_shared<CBBox>(*player->cTransform, radius);
+    player-> cBBox = std::make_shared<CBBox>(player, radius);
     player->updateActions = { [player]() {
         player->cShape->shape->setRotation(player->cShape->shape->getRotation() + 1.0f);
     }};
@@ -214,7 +233,7 @@ void GameEngine::spawnEnemy() {
     enemy-> cShape->shape->setOutlineColor(sf::Color::White);
     enemy-> cShape->shape->setOutlineThickness(settings.playerOutlineThickness);
     enemy-> cTransform = std::make_shared<CTransform>(Utilities::getRandomPosition(m_window, radius), Utilities::getRandomDirection() * settings.enemySpeed);
-    enemy-> cBBox = std::make_shared<CBBox>(*enemy->cTransform, radius);
+    enemy-> cBBox = std::make_shared<CBBox>(enemy, radius);
     enemy->updateActions = { [enemy, this]() {
         enemy->cShape->shape->setRotation(enemy->cShape->shape->getRotation() + 1.0f);
         for(const auto& bullet : m_entityManager->getEntitiesByTag("bullet")) {
@@ -231,7 +250,7 @@ void GameEngine::shootBullet(Vec2 dir) {
     bullet-> cTransform = std::make_shared<CTransform>(Vec2{0.0f,0.0}, dir * settings.bulletSpeed);
     bullet-> cTransform->position = m_entityManager->getPlayer()->cTransform->position;
     bullet-> cShape = std::make_shared<CShape>(std::make_shared<sf::CircleShape>(5.0f));
-    bullet-> cBBox = std::make_shared<CBBox>(*bullet->cTransform, 5.0f);
+    bullet-> cBBox = std::make_shared<CBBox>(bullet, 5.0f);
     bullet->updateActions = { [bullet, this]() {
         auto color = bullet->cShape->shape->getFillColor();
         bullet->cShape->shape->setFillColor({color.r, color.g, color.b, static_cast<sf::Uint8>(std::max(0, color.a - 5))});
@@ -244,4 +263,12 @@ void GameEngine::shootBullet(Vec2 dir) {
 void GameEngine::initWindow() {
     m_window.create(sf::VideoMode(settings.windowWidth, settings.windowHeight), "SFML ImGui");
     m_window.setFramerateLimit(60);
+}
+
+sf::RenderWindow & GameEngine::getWindow() {
+    return m_window;
+}
+
+const GameSettings & GameEngine::getSettings() const {
+    return settings;
 }

@@ -12,6 +12,8 @@ public:
     float x = 0.0f;
     float y = 0.0f;
 
+    Vec2(float x, float y): x(x), y(y) {}
+
     Vec2 operator+(const Vec2& other) const;
     Vec2 operator-(const Vec2& other) const;
     Vec2 operator*(float other) const;

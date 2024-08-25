@@ -41,6 +41,22 @@ add_executable(main src/main.cpp
         src/GameSettings.cpp
         src/Utilities.cpp
         src/Utilities.h
+        src/Action.cpp
+        src/Action.h
+        src/Animation.cpp
+        src/Animation.h
+        src/Scene.cpp
+        src/Scene.h
+        src/Assets.cpp
+        src/Assets.h
+        src/MenuScene.cpp
+        src/MenuScene.h
+        src/GameScene.cpp
+        src/GameScene.h
+        src/GameSceneSettings.h
+        src/Player.cpp
+        src/Player.h
+        src/Components.cpp
 )
 target_link_libraries(main PRIVATE sfml-graphics ImGui-SFML::ImGui-SFML)
 target_compile_features(main PRIVATE cxx_std_23)
