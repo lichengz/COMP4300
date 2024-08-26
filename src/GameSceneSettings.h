@@ -5,7 +5,9 @@
 #ifndef GAMESCENESETTINGS_H
 #define GAMESCENESETTINGS_H
 #include <string>
+#include <vector>
 
+#include "Components.h"
 #include "Vec2.h"
 
 class GameSceneSettings {
@@ -26,9 +28,14 @@ public:
     size_t jumpAnimFrameDuration = 0;
     Vec2 jumpAnimFrameSize = {32, 32};
 
+    // SPEED
+    float playerRunSpeed = 2.0f;
+    float playerJumpSpeed = 3.0f;
+
     // SCENE LAYOUT
     Vec2 gridSize = {32, 32};
-    Vec2 playerPosition = {0, 0};
+    Vec2 playerPosition = {0, 5};
+    std::vector<Vec2> tilePositions = {{0,0}, {1,0}, {2,0}, {3,0}, {4,0}, {5,0}};
 };
 
 #endif //GAMESCENESETTINGS_H

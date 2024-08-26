@@ -228,4 +228,50 @@ CMakeFiles/main.dir/src/Utilities.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/random.tcc \
  C:/mingw64/include/c++/13.1.0/numeric \
  C:/mingw64/include/c++/13.1.0/bits/stl_numeric.h \
- C:/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h
+ C:/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h \
+ C:\Users\white\CLionProjects\COMP4300\src\Components.h \
+ C:/mingw64/include/c++/13.1.0/memory \
+ C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h \
+ C:/mingw64/include/c++/13.1.0/bits/align.h \
+ C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
+ C:/mingw64/include/c++/13.1.0/ostream C:/mingw64/include/c++/13.1.0/ios \
+ C:/mingw64/include/c++/13.1.0/bits/basic_ios.h \
+ C:/mingw64/include/c++/13.1.0/bits/basic_ios.tcc \
+ C:/mingw64/include/c++/13.1.0/bits/ostream.tcc \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
+ C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
+ C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h \
+ C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
+ C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+ C:\Users\white\CLionProjects\COMP4300\src\Entity.h \
+ C:/mingw64/include/c++/13.1.0/functional \
+ C:/mingw64/include/c++/13.1.0/bits/std_function.h \
+ C:/mingw64/include/c++/13.1.0/unordered_map \
+ C:/mingw64/include/c++/13.1.0/bits/unordered_map.h \
+ C:/mingw64/include/c++/13.1.0/bits/hashtable.h \
+ C:/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
+ C:/mingw64/include/c++/13.1.0/bits/node_handle.h \
+ C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/13.1.0/array \
+ C:/mingw64/include/c++/13.1.0/bits/move_only_function.h \
+ C:/mingw64/include/c++/13.1.0/bits/mofunc_impl.h \
+ C:/mingw64/include/c++/13.1.0/iostream \
+ C:/mingw64/include/c++/13.1.0/istream \
+ C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/utility \
+ C:/mingw64/include/c++/13.1.0/bits/stl_relops.h \
+ C:\Users\white\CLionProjects\COMP4300\src\Animation.h \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Texture.hpp

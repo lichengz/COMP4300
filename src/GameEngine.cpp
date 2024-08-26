@@ -125,7 +125,7 @@ void GameEngine::sUserInput() {
 void GameEngine::sMovement() {
     for(const auto& entity : m_entityManager->getEntities()) {
         if(entity->cTransform && entity->cBBox) {
-            if(entity->getTag() != "bullet") {
+            if(std::ranges::find(entity->getTags(), "bullet") == entity->getTags().end()) {
                 if(entity->cTransform->position.x + entity->cTransform->velocity.x + entity->cBBox->boundingRadius() > settings.windowWidth || entity->cTransform->position.x + entity->cTransform->velocity.x - entity->cBBox->boundingRadius() < 0) {
                     entity->cTransform->velocity.x *= -1.0f;
                 }
@@ -205,7 +205,7 @@ void GameEngine::update() {
 }
 
 void GameEngine::initPlayer() {
-    auto player = m_entityManager->addEntity("player");
+    auto player = m_entityManager->addEntity({"player"});
     float radius = settings.playerRadius;
     int segments = settings.playerSegments;
     float thickness = settings.playerOutlineThickness;
@@ -223,7 +223,7 @@ void GameEngine::initPlayer() {
 }
 
 void GameEngine::spawnEnemy() {
-    auto enemy = m_entityManager->addEntity("enemy");
+    auto enemy = m_entityManager->addEntity({"enemy"});
     enemy-> cName = std::make_shared<CName>("Enemy");
     float radius = Utilities::getRandomValue(settings.enemyMinRadius, settings.enemyMaxRadius);
     int segments = Utilities::getRandomValue(settings.enemyMinSegments, settings.enemyMaxSegments);
@@ -246,7 +246,7 @@ void GameEngine::spawnEnemy() {
 }
 
 void GameEngine::shootBullet(Vec2 dir) {
-    auto bullet = m_entityManager->addEntity("bullet");
+    auto bullet = m_entityManager->addEntity({"bullet"});
     bullet-> cTransform = std::make_shared<CTransform>(Vec2{0.0f,0.0}, dir * settings.bulletSpeed);
     bullet-> cTransform->position = m_entityManager->getPlayer()->cTransform->position;
     bullet-> cShape = std::make_shared<CShape>(std::make_shared<sf::CircleShape>(5.0f));
@@ -263,6 +263,7 @@ void GameEngine::shootBullet(Vec2 dir) {
 void GameEngine::initWindow() {
     m_window.create(sf::VideoMode(settings.windowWidth, settings.windowHeight), "SFML ImGui");
     m_window.setFramerateLimit(60);
+    m_window.setKeyRepeatEnabled(false);
 }
 
 sf::RenderWindow & GameEngine::getWindow() {

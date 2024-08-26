@@ -210,4 +210,18 @@ CMakeFiles/main.dir/src/Animation.cpp.obj: \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:\Users\white\CLionProjects\COMP4300\src\Entity.h \
+ C:/mingw64/include/c++/13.1.0/functional \
+ C:/mingw64/include/c++/13.1.0/bits/std_function.h \
+ C:/mingw64/include/c++/13.1.0/unordered_map \
+ C:/mingw64/include/c++/13.1.0/bits/unordered_map.h \
+ C:/mingw64/include/c++/13.1.0/bits/hashtable.h \
+ C:/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
+ C:/mingw64/include/c++/13.1.0/bits/node_handle.h \
+ C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/13.1.0/array \
+ C:/mingw64/include/c++/13.1.0/bits/move_only_function.h \
+ C:/mingw64/include/c++/13.1.0/bits/mofunc_impl.h \
+ C:/mingw64/include/c++/13.1.0/utility \
+ C:/mingw64/include/c++/13.1.0/bits/stl_relops.h

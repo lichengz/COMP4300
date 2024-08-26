@@ -23,13 +23,13 @@ class Animation {
     size_t m_frameDuration = 0;
     Vec2 m_frameSize = {32, 32};
     std::string m_name = "none";
-    std::shared_ptr<CTransform> m_transform;
+    std::shared_ptr<Entity> m_entity;
 public:
-    Animation(const std::string& name, std::string texturePath, size_t frameCount, size_t frameDuration, Vec2 frameSize, const std::shared_ptr<CTransform>& transform):
+    Animation(const std::string& name, std::string texturePath, size_t frameCount, size_t frameDuration, Vec2 frameSize, const std::shared_ptr<Entity>& entity):
         m_frameCount(frameCount),
         m_frameDuration(frameDuration),
         m_frameSize(frameSize),
-        m_name(name), m_transform(transform){
+        m_name(name), m_entity(entity){
         if (!m_texture.loadFromFile(texturePath)) {
             std::cerr << "Error loading texture!" << std::endl;
         }

@@ -9,6 +9,8 @@
 #include "SFML/Graphics/RenderWindow.hpp"
 #include <random>
 
+#include "Components.h"
+
 
 class Utilities {
 public:
@@ -17,6 +19,8 @@ public:
     static Vec2 getRandomVec(Vec2 xRange, Vec2 yRange);
     static Vec2 getRandomPosition(const sf::RenderWindow& window, float pclose = 0.0f);
     static Vec2 getRandomDirection();
+    static Vec2 getOverlap(const std::shared_ptr<CBBox>& a, const std::shared_ptr<CBBox>& b);
+    static Vec2 getPrevOverlap(const std::shared_ptr<CBBox>& a, const std::shared_ptr<CBBox>& b);
 };
 
 template<typename T>

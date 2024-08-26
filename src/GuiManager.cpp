@@ -26,7 +26,7 @@ void GuiManager::update(GameSettings& settings, sf::RenderWindow& window, const 
             if (ImGui::CollapsingHeader(tag.first.c_str())) {
                 for(const auto& entity : tag.second) {
                     ImGui::Text("Entity %d", entity->m_id);
-                    ImGui::Text("Tag: %s", entity->m_tag.c_str());
+                    // ImGui::Text("Tag: %s", entity->m_tag.c_str());
                     ImGui::Text("Active: %s", entity->m_active ? "true" : "false");
                     ImGui::Separator();
                 }
@@ -36,7 +36,7 @@ void GuiManager::update(GameSettings& settings, sf::RenderWindow& window, const 
     if (ImGui::CollapsingHeader("All Entities")) {
         for(const auto& entity : m_entityManager->getEntities()) {
             ImGui::Text("Entity %d", entity->m_id);
-            ImGui::Text("Tag: %s", entity->m_tag.c_str());
+            // ImGui::Text("Tag: %s", entity->m_tag.c_str());
             ImGui::Text("Active: %s", entity->m_active ? "true" : "false");
             ImGui::Separator();
         }

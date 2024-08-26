@@ -1,13 +1,12 @@
 CMakeFiles/main.dir/src/Player.cpp.obj: \
  C:\Users\white\CLionProjects\COMP4300\src\Player.cpp \
  C:\Users\white\CLionProjects\COMP4300\src\Player.h \
- C:/mingw64/include/c++/13.1.0/map \
+ C:/mingw64/include/c++/13.1.0/deque \
  C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_tree.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
  C:/mingw64/include/c++/13.1.0/bits/functexcept.h \
  C:/mingw64/include/c++/13.1.0/bits/exception_defines.h \
@@ -38,24 +37,17 @@ CMakeFiles/main.dir/src/Player.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/mingw64/include/c++/13.1.0/bits/new_allocator.h \
  C:/mingw64/include/c++/13.1.0/bits/memoryfwd.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_function.h \
- C:/mingw64/include/c++/13.1.0/backward/binders.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
  C:/mingw64/include/c++/13.1.0/ext/alloc_traits.h \
  C:/mingw64/include/c++/13.1.0/bits/alloc_traits.h \
- C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
- C:/mingw64/include/c++/13.1.0/bits/node_handle.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_map.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_deque.h \
  C:/mingw64/include/c++/13.1.0/initializer_list \
- C:/mingw64/include/c++/13.1.0/tuple \
- C:/mingw64/include/c++/13.1.0/bits/uses_allocator.h \
+ C:/mingw64/include/c++/13.1.0/bits/refwrap.h \
  C:/mingw64/include/c++/13.1.0/bits/invoke.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_util.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_base.h \
- C:/mingw64/include/c++/13.1.0/bits/max_size_type.h \
- C:/mingw64/include/c++/13.1.0/numbers \
- C:/mingw64/include/c++/13.1.0/bits/stl_multimap.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_function.h \
+ C:/mingw64/include/c++/13.1.0/backward/binders.h \
  C:/mingw64/include/c++/13.1.0/bits/range_access.h \
- C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/13.1.0/bits/deque.tcc \
  C:/mingw64/include/c++/13.1.0/bits/memory_resource.h \
  C:/mingw64/include/c++/13.1.0/cstddef \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
@@ -67,14 +59,25 @@ CMakeFiles/main.dir/src/Player.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/mingw64/include/c++/13.1.0/bits/uses_allocator.h \
  C:/mingw64/include/c++/13.1.0/bits/uses_allocator_args.h \
+ C:/mingw64/include/c++/13.1.0/tuple \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_util.h \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/max_size_type.h \
+ C:/mingw64/include/c++/13.1.0/numbers C:/mingw64/include/c++/13.1.0/map \
+ C:/mingw64/include/c++/13.1.0/bits/stl_tree.h \
+ C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
+ C:/mingw64/include/c++/13.1.0/bits/node_handle.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_map.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_multimap.h \
+ C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
  C:/mingw64/include/c++/13.1.0/utility \
  C:/mingw64/include/c++/13.1.0/bits/stl_relops.h \
  C:\Users\white\CLionProjects\COMP4300\src\Entity.h \
  C:/mingw64/include/c++/13.1.0/functional \
  C:/mingw64/include/c++/13.1.0/bits/functional_hash.h \
  C:/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
- C:/mingw64/include/c++/13.1.0/bits/refwrap.h \
  C:/mingw64/include/c++/13.1.0/bits/std_function.h \
  C:/mingw64/include/c++/13.1.0/typeinfo \
  C:/mingw64/include/c++/13.1.0/unordered_map \
@@ -83,7 +86,6 @@ CMakeFiles/main.dir/src/Player.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
  C:/mingw64/include/c++/13.1.0/bits/enable_special_members.h \
  C:/mingw64/include/c++/13.1.0/vector \
- C:/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_vector.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
  C:/mingw64/include/c++/13.1.0/bits/vector.tcc \
@@ -229,4 +231,5 @@ CMakeFiles/main.dir/src/Player.cpp.obj: \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Window/Export.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Export.hpp \
+ C:\Users\white\CLionProjects\COMP4300\src\GameSceneSettings.h

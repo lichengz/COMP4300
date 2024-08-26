@@ -20,6 +20,7 @@ public:
 class CTransform : public Transform {
 public:
     Vec2 position = {0, 0};
+    Vec2 prevPosition = {0, 0};
     Vec2 velocity = {0, 0};
     Vec2 size = {0, 0};
     float angle = 0;
@@ -47,6 +48,12 @@ public:
     bool intersects(const CBBox& other) const;
     Vec2 getBBox() const;
     CBBox(const std::shared_ptr<Entity>& entity, float radius = 0) : m_entity(entity), m_radius(radius) {}
+};
+
+class CRigidBody : public Transform {
+public:
+    bool isGravity = false;
+    explicit CRigidBody(bool isGravity) : isGravity(isGravity) {}
 };
 
 #endif //COMPONENTS_H

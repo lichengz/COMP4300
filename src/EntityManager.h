@@ -23,7 +23,8 @@ class EntityManager {
 public:
     EntityManager();
     void update();
-    std::shared_ptr<Entity> addEntity(const std::string& tag);
+    // std::shared_ptr<Entity> addEntity(const std::string& tag);
+    std::shared_ptr<Entity> addEntity(const std::vector<std::string>& tag);
     const EntityVec& getEntities();
     const EntityVec& getEntitiesByTag(const std::string& tag);
     const EntityMap& getEntityMap();

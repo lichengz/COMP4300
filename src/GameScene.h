@@ -23,10 +23,14 @@ public:
     void onEnd() override;
 
     void initPlayer();
+    void loadLevel();
     void sMovement();
     void sAnimation();
+    void sRigidBody();
+    void sCollision();
 
     Vec2 getScreenPosFromGridPos(Vec2 gridPos, const std::shared_ptr<Entity> &entity);
+    Vec2 getScreenPosFromGridPos(Vec2 gridPos, const std::shared_ptr<Player> &player);
 };
 
 

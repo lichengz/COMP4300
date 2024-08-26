@@ -151,11 +151,66 @@ CMakeFiles/main.dir/src/GameScene.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
  C:\Users\white\CLionProjects\COMP4300\src\GameSceneSettings.h \
+ C:/mingw64/include/c++/13.1.0/vector \
+ C:/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_vector.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
+ C:/mingw64/include/c++/13.1.0/bits/vector.tcc \
+ C:\Users\white\CLionProjects\COMP4300\src\Components.h \
+ C:/mingw64/include/c++/13.1.0/memory \
+ C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h \
+ C:/mingw64/include/c++/13.1.0/bits/align.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
+ C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
+ C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
+ C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_base.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h \
+ C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h \
+ C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
+ C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
+ C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
  C:\Users\white\CLionProjects\COMP4300\src\Vec2.h \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ C:/mingw64/include/c++/13.1.0/algorithm \
+ C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_heap.h \
+ C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/13.1.0/bits/ranges_algo.h \
+ C:/mingw64/include/c++/13.1.0/optional \
+ C:/mingw64/include/c++/13.1.0/bits/enable_special_members.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
  C:\Users\white\CLionProjects\COMP4300\src\Player.h \
+ C:/mingw64/include/c++/13.1.0/deque \
+ C:/mingw64/include/c++/13.1.0/bits/stl_deque.h \
+ C:/mingw64/include/c++/13.1.0/bits/deque.tcc \
  C:/mingw64/include/c++/13.1.0/map \
  C:/mingw64/include/c++/13.1.0/bits/stl_tree.h \
- C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
  C:/mingw64/include/c++/13.1.0/bits/node_handle.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_map.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_multimap.h \
@@ -169,62 +224,10 @@ CMakeFiles/main.dir/src/GameScene.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/unordered_map.h \
  C:/mingw64/include/c++/13.1.0/bits/hashtable.h \
  C:/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
- C:/mingw64/include/c++/13.1.0/bits/enable_special_members.h \
- C:/mingw64/include/c++/13.1.0/vector \
- C:/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_vector.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
- C:/mingw64/include/c++/13.1.0/bits/vector.tcc \
  C:/mingw64/include/c++/13.1.0/array \
- C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
- C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_heap.h \
- C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
  C:/mingw64/include/c++/13.1.0/bits/move_only_function.h \
  C:/mingw64/include/c++/13.1.0/bits/mofunc_impl.h \
- C:/mingw64/include/c++/13.1.0/memory \
- C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h \
- C:/mingw64/include/c++/13.1.0/bits/align.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
- C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
- C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
- C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
- C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
- C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
- C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_base.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h \
- C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
- C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h \
- C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
- C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
  C:\Users\white\CLionProjects\COMP4300\src\Animation.h \
- C:\Users\white\CLionProjects\COMP4300\src\Components.h \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Shape.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Config.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/System/Vector2.inl \
- C:/mingw64/include/c++/13.1.0/algorithm \
- C:/mingw64/include/c++/13.1.0/bits/ranges_algo.h \
- C:/mingw64/include/c++/13.1.0/optional \
- C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
- C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
@@ -302,4 +305,28 @@ CMakeFiles/main.dir/src/GameScene.cpp.obj: \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
- C:\Users\white\CLionProjects\COMP4300\src\GuiManager.h
+ C:\Users\white\CLionProjects\COMP4300\src\GuiManager.h \
+ C:\Users\white\CLionProjects\COMP4300\src\Utilities.h \
+ C:/mingw64/include/c++/13.1.0/random C:/mingw64/include/c++/13.1.0/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/include/c++/13.1.0/bits/specfun.h \
+ C:/mingw64/include/c++/13.1.0/limits \
+ C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
+ C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
+ C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
+ C:/mingw64/include/c++/13.1.0/cstdint \
+ C:/mingw64/include/c++/13.1.0/bits/random.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/mingw64/include/c++/13.1.0/bits/random.tcc \
+ C:/mingw64/include/c++/13.1.0/numeric \
+ C:/mingw64/include/c++/13.1.0/bits/stl_numeric.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h

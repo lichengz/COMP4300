@@ -3,6 +3,7 @@
 
 
 int main() {
+
     GameSettings settings = GameSettings();
     settings.readConfigFile();
     settings.init_shapes();

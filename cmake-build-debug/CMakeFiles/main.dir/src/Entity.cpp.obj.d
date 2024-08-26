@@ -193,6 +193,8 @@ CMakeFiles/main.dir/src/Entity.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h \
  C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
  C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
+ C:/mingw64/include/c++/13.1.0/utility \
+ C:/mingw64/include/c++/13.1.0/bits/stl_relops.h \
  C:\Users\white\CLionProjects\COMP4300\src\Animation.h \
  C:\Users\white\CLionProjects\COMP4300\src\Components.h \
  C:\Users\white\CLionProjects\COMP4300\src\Vec2.h \

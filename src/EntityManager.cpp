@@ -18,21 +18,42 @@ void EntityManager::update() {
     }
 }
 
-std::shared_ptr<Entity> EntityManager::addEntity(const std::string &tag) {
+// std::shared_ptr<Entity> EntityManager::addEntity(const std::string &tag) {
+//     std::shared_ptr<Entity> entity;
+//     if(!m_entitiesBackUp.empty()) {
+//         entity = std::move(m_entitiesBackUp.back());
+//         m_entitiesBackUp.pop_back();
+//         entity->m_tag = tag;
+//         entity->m_active = true;
+//     }else {
+//         entity = std::shared_ptr<Entity>(new Entity(m_totalEntities++, tag, true));
+//     }
+//     m_entities.push_back(entity);
+//     if(!m_entityMap.contains(tag)) {
+//         m_entityMap[tag] = EntityVec();
+//     }
+//     m_entityMap[tag].push_back(entity);
+//
+//     return entity;
+// }
+
+std::shared_ptr<Entity> EntityManager::addEntity(const std::vector<std::string> &tags) {
     std::shared_ptr<Entity> entity;
     if(!m_entitiesBackUp.empty()) {
         entity = std::move(m_entitiesBackUp.back());
         m_entitiesBackUp.pop_back();
-        entity->m_tag = tag;
+        entity->m_tags = tags;
         entity->m_active = true;
     }else {
-        entity = std::shared_ptr<Entity>(new Entity(m_totalEntities++, tag, true));
+        entity = std::shared_ptr<Entity>(new Entity(m_totalEntities++, tags, true));
     }
     m_entities.push_back(entity);
-    if(!m_entityMap.contains(tag)) {
-        m_entityMap[tag] = EntityVec();
+    for(const auto& tag : tags) {
+        if(!m_entityMap.contains(tag)) {
+            m_entityMap[tag] = EntityVec();
+        }
+        m_entityMap[tag].push_back(entity);
     }
-    m_entityMap[tag].push_back(entity);
 
     return entity;
 }
@@ -66,10 +87,12 @@ void EntityManager::destroy(const std::shared_ptr<Entity>& entity) {
     m_entities.erase(std::remove(m_entities.begin(), m_entities.end(), entity), m_entities.end());
 
     // Remove the entity from the map of entities by tag
-    auto it_map = m_entityMap.find(entity->getTag());
-    if (it_map != m_entityMap.end()) {
-        auto& entityList = it_map->second;
-        entityList.erase(std::remove(entityList.begin(), entityList.end(), entity), entityList.end());
+    for(const auto& tag : entity->m_tags) {
+        auto it_map = m_entityMap.find(tag);
+        if(it_map != m_entityMap.end()) {
+            auto& entityList = it_map->second;
+            entityList.erase(std::remove(entityList.begin(), entityList.end(), entity), entityList.end());
+        }
     }
 
     // Backup the entity and deactivate it

@@ -4,9 +4,11 @@
 
 #include "Animation.h"
 
+#include "Entity.h"
+
 void Animation::update() {
     // Set Position
-    m_sprite.setPosition(m_transform->position.x, m_transform->position.y);
+    m_sprite.setPosition(m_entity->cTransform->position.x, m_entity->cTransform->position.y);
     // Set Frame
     m_frameIndex = m_frameIndex % m_frameCount;
     m_sprite.setTextureRect(sf::IntRect(m_frameIndex * m_frameSize.x, 0, m_frameSize.x, m_frameSize.y));

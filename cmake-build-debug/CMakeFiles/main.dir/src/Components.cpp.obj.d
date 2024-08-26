@@ -215,6 +215,8 @@ CMakeFiles/main.dir/src/Components.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/utility \
+ C:/mingw64/include/c++/13.1.0/bits/stl_relops.h \
  C:\Users\white\CLionProjects\COMP4300\src\Animation.h \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
