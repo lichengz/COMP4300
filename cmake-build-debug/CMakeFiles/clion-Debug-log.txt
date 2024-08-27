@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2024.1.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\white\CLionProjects\COMP4300 -B C:\Users\white\CLionProjects\COMP4300\cmake-build-debug
--- Found ImGui v1.89.9 in C:/Users/white/CLionProjects/COMP4300/cmake-build-debug/_deps/imgui-src
--- Configuring done (6.6s)
--- Generating done (0.1s)
--- Build files have been written to: C:/Users/white/CLionProjects/COMP4300/cmake-build-debug
