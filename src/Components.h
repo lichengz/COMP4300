@@ -14,7 +14,7 @@ class Entity;
 
 class Transform {
 public:
-    Transform() = default;
+    bool has = false;
 };
 
 class CTransform : public Transform {
@@ -24,6 +24,7 @@ public:
     Vec2 velocity = {0, 0};
     Vec2 size = {0, 0};
     float angle = 0;
+    CTransform() = default;
     CTransform(Vec2 position, Vec2 velocity) : position(position), velocity(velocity) {}
     CTransform(Vec2 position, Vec2 velocity, Vec2 size, float angle) : position(position), velocity(velocity), size(size), angle(angle) {}
 };
@@ -31,13 +32,15 @@ public:
 class CName : public Transform {
 public:
     std::string name;
-    CName(std::string name) : name(name) {}
+    CName() = default;
+    explicit CName(std::string name) : name(name) {}
 };
 
 class CShape : public Transform {
 public:
     std::shared_ptr<sf::Shape> shape;
-    CShape(std::shared_ptr<sf::Shape> shape) : shape(shape) {}
+    CShape() = default;
+    explicit CShape(std::shared_ptr<sf::Shape> shape) : shape(shape) {}
 };
 
 class CBBox : public Transform {
@@ -47,12 +50,14 @@ public:
     float boundingRadius() const;
     bool intersects(const CBBox& other) const;
     Vec2 getBBox() const;
-    CBBox(const std::shared_ptr<Entity>& entity, float radius = 0) : m_entity(entity), m_radius(radius) {}
+    CBBox() = default;
+    explicit CBBox(const std::shared_ptr<Entity>& entity, float radius = 0) : m_entity(entity), m_radius(radius) {}
 };
 
 class CRigidBody : public Transform {
 public:
     bool isGravity = false;
+    CRigidBody() = default;
     explicit CRigidBody(bool isGravity) : isGravity(isGravity) {}
 };
 

@@ -14,7 +14,7 @@
 #include "SFML/Graphics/Texture.hpp"
 
 
-class Animation {
+class Animation : public Transform {
     sf::Texture m_texture;
     sf::Sprite m_sprite;
     size_t m_frameIndex = 0;
@@ -25,6 +25,7 @@ class Animation {
     std::string m_name = "none";
     std::shared_ptr<Entity> m_entity;
 public:
+    Animation() = default;
     Animation(const std::string& name, std::string texturePath, size_t frameCount, size_t frameDuration, Vec2 frameSize, const std::shared_ptr<Entity>& entity):
         m_frameCount(frameCount),
         m_frameDuration(frameDuration),
