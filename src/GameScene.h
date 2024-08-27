@@ -6,6 +6,7 @@
 #define GAMESCENE_H
 #include <iostream>
 
+#include "Assets.h"
 #include "GameSceneSettings.h"
 #include "Player.h"
 #include "Scene.h"
@@ -14,6 +15,7 @@
 class GameScene : public Scene {
     GameSceneSettings m_gameSceneSettings;
     std::shared_ptr<Player> m_player;
+    Assets m_assets;
 public:
     GameScene(GameEngine* game) : Scene(game) {}
     void start() override;

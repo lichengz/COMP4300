@@ -26,11 +26,11 @@ public:
     friend class EntityManager;
     friend class GuiManager;
     std::vector<std::function<void()>> updateActions;
-    std::shared_ptr<CTransform> cTransform;
-    std::shared_ptr<CName> cName;
-    std::shared_ptr<CShape> cShape;
-    std::shared_ptr<CBBox> cBBox;
-    std::shared_ptr<CRigidBody> cRigidBody;
+    // std::shared_ptr<CTransform> cTransform;
+    // std::shared_ptr<CName> cName;
+    // std::shared_ptr<CShape> cShape;
+    // std::shared_ptr<CBBox> cBBox;
+    // std::shared_ptr<CRigidBody> cRigidBody;
     std::shared_ptr<Animation> cAnimation;
     void update();
     bool& isActive() {
@@ -44,10 +44,7 @@ public:
     }
 
     template <typename T>
-    T& getComponent()
-    {
-        return std::get<T>(m_components);
-    }
+    T& getComponent();
 
     template <typename T>
     const T& getComponent() const
@@ -68,10 +65,7 @@ public:
     }
 
     template <typename T>
-    bool hasComponent() const
-    {
-        return getComponent<T>().has;
-    }
+    bool hasComponent() const;
 
     template <typename T>
     void removeComponent()
@@ -81,5 +75,33 @@ public:
         component.has = false;
     }
 };
+
+// General template function definition
+template <typename T>
+T& Entity::getComponent() {
+    return std::get<T>(m_components);
+}
+
+// Specialization for Animation
+template <>
+inline Animation& Entity::getComponent<Animation>() {
+    if (m_id == 0 && cAnimation) {
+        return *cAnimation;  // Return the shared Animation object
+    }
+    return std::get<Animation>(m_components);  // Otherwise, get it from the tuple
+}
+
+template<typename T>
+bool Entity::hasComponent() const {
+    return std::get<T>(m_components).has;
+}
+
+template<>
+inline bool Entity::hasComponent<Animation>() const {
+    if(m_id == 0) {
+        return cAnimation != nullptr;
+    }
+    return std::get<Animation>(m_components).has;
+}
 
 #endif //ENTITY_H

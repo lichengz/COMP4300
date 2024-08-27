@@ -31,9 +31,7 @@ class GameEngine {
     bool m_running = true;
 
     void sUserInput();
-    void sMovement();
-    void sCollision();
-    void sRender();
+
 public:
     GameEngine(GameSettings settings);
     void start();

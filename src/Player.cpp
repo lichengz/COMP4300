@@ -36,12 +36,14 @@ void Player::moveRight() {
 
 void Player::jump() {
     if(isGrounded) {
-        m_playerEntity->cTransform->velocity.y = -m_gameSceneSettings.playerJumpSpeed;
+        // m_playerEntity->cTransform->velocity.y = -m_gameSceneSettings.playerJumpSpeed;
+        m_playerEntity->getComponent<CTransform>().velocity.y = -m_gameSceneSettings.playerJumpSpeed;
     }
 }
 
 void Player::stop() {
-    m_playerEntity->cTransform->velocity.x = 0;
+    // m_playerEntity->cTransform->velocity.x = 0;
+    m_playerEntity->getComponent<CTransform>().velocity.x = 0;
     setState(PlayerState::IDLE);
 }
 
@@ -71,11 +73,13 @@ void Player::setPlayerHorizontalSpeed(Direciton direciton) {
     setState(PlayerState::RUN);
     switch (direciton) {
         case Direciton::LEFT:
-            m_playerEntity->cTransform->velocity.x = - m_gameSceneSettings.playerRunSpeed;
+            // m_playerEntity->cTransform->velocity.x = - m_gameSceneSettings.playerRunSpeed;
+            m_playerEntity->getComponent<CTransform>().velocity.x = - m_gameSceneSettings.playerRunSpeed;
             setFlipSprites(true);
             break;
         case Direciton::RIGHT:
-            m_playerEntity->cTransform->velocity.x = m_gameSceneSettings.playerRunSpeed;
+            //m_playerEntity->cTransform->velocity.x = m_gameSceneSettings.playerRunSpeed;
+            m_playerEntity->getComponent<CTransform>().velocity.x = m_gameSceneSettings.playerRunSpeed;
             setFlipSprites(false);
             break;
     }

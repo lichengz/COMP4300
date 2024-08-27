@@ -15,7 +15,7 @@
 
 
 class Animation : public Transform {
-    sf::Texture m_texture;
+    // sf::Texture m_texture;
     sf::Sprite m_sprite;
     size_t m_frameIndex = 0;
     size_t m_frameCount = 1;
@@ -26,14 +26,14 @@ class Animation : public Transform {
     std::shared_ptr<Entity> m_entity;
 public:
     Animation() = default;
-    Animation(const std::string& name, std::string texturePath, size_t frameCount, size_t frameDuration, Vec2 frameSize, const std::shared_ptr<Entity>& entity):
+    Animation(const std::string& name, const sf::Texture& m_texture, size_t frameCount, size_t frameDuration, Vec2 frameSize, const std::shared_ptr<Entity>& entity):
         m_frameCount(frameCount),
         m_frameDuration(frameDuration),
         m_frameSize(frameSize),
         m_name(name), m_entity(entity){
-        if (!m_texture.loadFromFile(texturePath)) {
-            std::cerr << "Error loading texture!" << std::endl;
-        }
+        // if (!m_texture.loadFromFile(texturePath)) {
+        //     std::cerr << "Error loading texture!" << std::endl;
+        // }
         m_sprite.setTexture(m_texture);
         m_sprite.setOrigin(m_frameSize.x / 2, m_frameSize.y / 2);
     }
