@@ -33,3 +33,19 @@ Vec2 Utilities::getPrevOverlap(const CBBox &a, const CBBox &b) {
     float y = std::max(a.m_entity->getComponent<CBBox>().getBBox().y + b.m_entity->getComponent<CBBox>().getBBox().y - yDist, 0.0f);
     return {x, y};
 }
+
+Vec2 Utilities::getDirectionToCollision(const CTransform &a, const CTransform &b) {
+    float x = 0;
+    if(a.position.x < b.position.x) {
+        x = -1;
+    } else if(a.position.x > b.position.x) {
+        x = 1;
+    }
+    float y = 0;
+    if(a.position.y < b.position.y) {
+        y = -1;
+    } else if(a.position.y > b.position.y) {
+        y = 1;
+    }
+    return Vec2{x, y};
+}

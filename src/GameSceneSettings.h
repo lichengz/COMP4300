@@ -35,7 +35,7 @@ public:
     // SCENE LAYOUT
     Vec2 gridSize = {32, 32};
     Vec2 playerPosition = {0, 5};
-    std::vector<Vec2> tilePositions = {{0,0}, {1,0}, {2,0}, {3,0}, {4,0}, {5,0}};
+    std::vector<Vec2> tilePositions = {{0,0}, {1,0}, {2,0}, {3,0}, {4,0}, {5,0}, {4, 3},{5, 3}};
 };
 
 #endif //GAMESCENESETTINGS_H

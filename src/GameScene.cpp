@@ -14,15 +14,15 @@ void GameScene::start() {
     m_actionMap = {
         {sf::Keyboard::Key::A,ActionType::MOVE_LEFT},
         {sf::Keyboard::Key::D,ActionType::MOVE_RIGHT},
-        {sf::Keyboard::Key::Space,ActionType::JUMP}
+        {sf::Keyboard::Key::W,ActionType::JUMP}
     };
 }
 
 void GameScene::update() {
-    sAnimation();
     sRigidBody();
     sMovement();
     sCollision();
+    sAnimation();
 }
 
 void GameScene::render() {
@@ -149,11 +149,34 @@ void GameScene::sCollision() {
                 if(rigidEntity != colliderEntity) {
                     if(colliderEntity->hasComponent<CBBox>()) {
                         Vec2 overlap = Utilities::getOverlap(rigidEntity->getComponent<CBBox>(), colliderEntity->getComponent<CBBox>());
+                        Vec2 prevOverlap = Utilities::getPrevOverlap(rigidEntity->getComponent<CBBox>(), colliderEntity->getComponent<CBBox>());
                         if(overlap.x > 0 && overlap.y > 0) {
-                            rigidEntity->getComponent<CTransform>().position = rigidEntity->getComponent<CTransform>().position - Vec2{0, overlap.y};
-                            rigidEntity->getComponent<CTransform>().velocity = {rigidEntity->getComponent<CTransform>().velocity.x, 0};
-                            if(rigidEntity == m_player->getEntity()) {
+                            Vec2 direction = Utilities::getDirectionToCollision(rigidEntity->getComponent<CTransform>(), colliderEntity->getComponent<CTransform>());
+                            float displacementX = 0;
+                            if(prevOverlap.y > 0) {
+                                if(direction.x < 0) {
+                                    displacementX = overlap.x;
+                                } else if(direction.x > 0) {
+                                    displacementX = -overlap.x;
+                                }
+                            }
+                            float displacementY = 0;
+                            if(prevOverlap.x > 0) {
+                                if(direction.y < 0) {
+                                    displacementY = overlap.y;
+                                } else if(direction.y > 0) {
+                                    displacementY = -overlap.y;
+                                }
+                            }
+                            rigidEntity->getComponent<CTransform>().position = rigidEntity->getComponent<CTransform>().position - Vec2{displacementX, displacementY};
+                            rigidEntity->getComponent<CTransform>().velocity = {displacementX != 0 ? 0 : rigidEntity->getComponent<CTransform>().velocity.x, displacementY != 0 ? 0 : rigidEntity->getComponent<CTransform>().velocity.y};
+                            if(rigidEntity == m_player->getEntity() && direction.y < 0) {
                                 m_player->isGrounded = true;
+                                if(m_player->getVel().x == 0) {
+                                    m_player->setState(PlayerState::IDLE);
+                                } else {
+                                    m_player->setState(PlayerState::RUN);
+                                }
                             }
                         }
 
@@ -161,6 +184,9 @@ void GameScene::sCollision() {
                 }
             }
         }
+    }
+    if(!m_player->isGrounded) {
+        m_player->setState(PlayerState::JUMP);
     }
 }
 

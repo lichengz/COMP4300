@@ -21,6 +21,7 @@ public:
     static Vec2 getRandomDirection();
     static Vec2 getOverlap(const CBBox &a, const CBBox &b);
     static Vec2 getPrevOverlap(const CBBox &a, const CBBox &b);
+    static Vec2 getDirectionToCollision(const CTransform &a, const CTransform &b);
 };
 
 template<typename T>
